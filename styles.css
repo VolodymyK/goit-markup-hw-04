@@ -269,7 +269,7 @@ color: #434455;
     height: 100%;
 }
 .comp-icon{
-    fill: #232a7a;
+    fill: #8E8F99;
 }
 .comp-link:hover,
 .comp-link:focus{
@@ -352,8 +352,17 @@ border-radius: 4px;
     gap: 24px;
     width: 232px;
 }
-
+.foot-soc-list{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 208px;
+}
 .soc-item{
+    width: 40px;
+height: 40px;
+}
+.foot-soc-item{
     width: 40px;
 height: 40px;
 }
@@ -366,14 +375,40 @@ height: 40px;
     align-items: center;
     justify-content: center;
 }
+.foot-soc-item-link{
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .soc-item-link:hover{
     background-color: #404BBF;
+}
+.foot-soc{
+    margin-left: 120px;
+}
+.foot-soc-item-link:hover{
+    background: #31D0AA;
 }
 .sec3{
     padding-top: 120px;
     padding-bottom: 120px;
     padding-left: 156px;
     padding-right: 156px;
+}
+.footer_tit2{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-bottom: 16px;
+
 }
 .port_list{
     font-family: 'Roboto';
@@ -408,7 +443,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .box-shad:hover{
-    border: 0.5px solid #F4F4FD;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 cursor: pointer;
 }
