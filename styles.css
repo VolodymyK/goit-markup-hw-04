@@ -125,6 +125,7 @@ letter-spacing: 0.02em;
 }
 .section1{
 padding-top: 128px;
+padding-bottom: 120px;
 }
 .list1{
     display: flex;
@@ -160,7 +161,23 @@ letter-spacing: 0.02em;
     padding-bottom: 192px;
     background-color: #2E2F42;
 }
-
+.feacher-item{
+    width: 264px;
+height: 112px;
+margin-bottom: 8px;
+}
+.feacher-link{
+    width: 100%;
+    height: 100%;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feacher-link:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 .titles_p{
     font-family: 'Roboto';
 font-style: normal;
@@ -251,6 +268,15 @@ color: #434455;
     width: 100%;
     height: 100%;
 }
+
+.comp-link:hover,
+.comp-link:focus{
+    border: 1px solid #4D5AE5;
+}
+.comp-link:hover .comp-icon{
+    fill: #4D5AE5;
+}
+
 .footer{
     background-color: #2E2F42;
     padding-top: 100px;
@@ -342,10 +368,10 @@ height: 40px;
     background-color: #404BBF;
 }
 .sec3{
-    margin-top: 120px;
-    margin-bottom: 120px;
-    margin-left: 156px;
-    margin-right: 156px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 156px;
+    padding-right: 156px;
 }
 .port_list{
     font-family: 'Roboto';
