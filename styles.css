@@ -268,7 +268,9 @@ color: #434455;
     width: 100%;
     height: 100%;
 }
-
+.comp-icon{
+    fill: #232a7a;
+}
 .comp-link:hover,
 .comp-link:focus{
     border: 1px solid #4D5AE5;
