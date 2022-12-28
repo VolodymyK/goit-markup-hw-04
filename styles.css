@@ -156,6 +156,9 @@ letter-spacing: 0.02em;
     padding-bottom: 192px;
     background-color: #2E2F42;
 }
+.icon1:hover{
+fill: #4D5AE5;
+}
 .titles_p{
     font-family: 'Roboto';
 font-style: normal;
