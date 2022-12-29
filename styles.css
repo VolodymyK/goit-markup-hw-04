@@ -117,7 +117,8 @@ letter-spacing: 0.02em;
     border: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-.button_os:hover{
+.button_os:hover,
+.button_os:focus{
     background: #404BBF;
     border: #404BBF;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
@@ -125,17 +126,14 @@ letter-spacing: 0.02em;
 }
 .section1{
 padding-top: 128px;
-padding-bottom: 120px;
 }
 .list1{
     display: flex;
     width: 1128px;
-height: 104px;
 justify-content: space-between;
 }
 .boxing_list1{
     width: 264px;
-height: 104px;
 }
 
 .text_in_box{
@@ -153,13 +151,17 @@ letter-spacing: 0.02em;
     justify-content: space-between;
 }
 .title1{
+    background-color: #2E2F42;
     background-image: url(img/Dark-bgfon.png), url(img/people-office1fon.png);
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
     padding-top: 192px;
     padding-bottom: 192px;
-    background-color: #2E2F42;
+    
 }
 .feacher-item{
     width: 264px;
@@ -175,7 +177,8 @@ margin-bottom: 8px;
     align-items: center;
     justify-content: center;
 }
-.feacher-link:hover{
+.feacher-link:hover,
+.feacher-link:focus{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .titles_p{
@@ -276,6 +279,11 @@ color: #434455;
     border: 1px solid #4D5AE5;
 }
 .comp-link:hover .comp-icon{
+    fill: #4D5AE5;
+}
+
+
+.comp-link:focus .comp-icon{
     fill: #4D5AE5;
 }
 
@@ -384,20 +392,20 @@ height: 40px;
     align-items: center;
     justify-content: center;
 }
-.soc-item-link:hover{
+.soc-item-link:hover,
+.soc-item-link:focus{
     background-color: #404BBF;
 }
 .foot-soc{
     margin-left: 120px;
 }
-.foot-soc-item-link:hover{
+.foot-soc-item-link:hover,
+.foot-soc-item-link:focus{
     background: #31D0AA;
 }
 .sec3{
     padding-top: 120px;
     padding-bottom: 120px;
-    padding-left: 156px;
-    padding-right: 156px;
 }
 .footer_tit2{
     font-family: 'Roboto';
