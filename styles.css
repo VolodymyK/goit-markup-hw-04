@@ -321,6 +321,7 @@ color: #E7E9FC;
     color: #4D5AE5;
 }
 .port_button{
+    cursor: pointer;
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 24px;
