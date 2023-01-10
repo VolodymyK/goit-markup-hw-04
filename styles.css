@@ -8,7 +8,21 @@ ul{
 img{
     display: block;
 }
-
+.active {
+  position: relative;
+}
+.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #4D5AE5;
+    border-radius: 2px;
+    opacity: 1;
+}
 body{
     font-family: 'Roboto';
 font-style: normal;
@@ -52,7 +66,7 @@ font-weight: 600;
 font-size: 16px;
 line-height: 24px;
 color: #2E2F42;
-
+padding-bottom: 26px;
 }
 .aling_itms{
     display: flex;
